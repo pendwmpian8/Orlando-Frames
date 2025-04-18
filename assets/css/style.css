@@ -49,20 +49,20 @@ body {
 }
 
 .footer {
-  background-color: var(--charcoal-color); /* optional: use your brand color */
-  color: var(--cream-color);               /* optional: use your brand color */
+  background-color: var(--charcoal-color); 
+  color: var(--cream-color);              
   text-align: center;
 }
 
-/*hero section styles*/
+
 /* Hero Section */
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;  /* Full viewport height */
-  background-image: url(../images/heroimage.jpeg);  /* Replace with your image URL */
+  height: 100vh;  
+  background-image: url(../images/heroimage.jpeg); 
   background-position: center;
-  background-size: cover; /* Ensures the image covers the entire section */
+  background-size: cover; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,6 +79,7 @@ body {
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .hero p {
@@ -87,7 +88,7 @@ body {
 }
 
 /*home page more info section*/
-/* Ensure the images and text are aligned properly and of equal height */
+
 #index-section .row {
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +106,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 300px; /* Adjust as needed */
+  min-height: 300px; 
 }
 
 #index-section img {
@@ -129,7 +130,7 @@ body {
 }
 /* background color to sections for visual separation */
 #index-section .col-md-6 {
-  background-color: var(--charcoal-color); /* Light gray background for better visibility */
+  background-color: var(--charcoal-color);
   color: var(--cream-color);
   padding: 20px;
 }
@@ -139,8 +140,8 @@ body {
 .cta-button {
   padding: 15px 30px;
   font-size: 1.2rem;
-  background-color:var(--coral-color); /* Charcoal color for the button */
-  color: var(--blue-color); 
+  background-color:var(--charcoal-color); 
+  color: var(--cream-color); 
   border: none;
   text-decoration: none;
   border-radius: 5px;
@@ -148,15 +149,35 @@ body {
 }
 
 .cta-button:hover {
-  background-color:var(--blue-color); /* Charcoal color when hovered */
-  color: var(--coral-color); /* Change text color to cream when hovered */
+  background-color:var(--cream-color);
+  color: var(--charcoal-color); 
 
 }
 
 
+/* 4 steps to take section*/
+#steps-section {
+  padding: 50px 0;
+  color: var(--green-color);
+}
 
+.step-card img {
+  width: 75px; 
+  object-fit: contain; /* Keep the aspect ratio */
+  margin-bottom: 15px; 
+}
 
-/*GET A QUOTE SECTION*/
+.step-card {
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+#steps-section h2{
+  font-weight: bold
+}
+
+/*QUOTE SECTION*/
 
 /*quote form info*/
 #quote-form-info p{
@@ -185,68 +206,68 @@ form h3 {
 }
 
 .custom-form {
-  margin-bottom: 3rem; /* Adjust as needed */
+  margin-bottom: 3rem;
 }
 
 button[type="submit"] {
-  background-color: var(--green-color); /* Set background color to coral */
-  color: var(--cream-color); /* Text color (cream) */
+  background-color: var(--green-color);
+  color: var(--yellow-color);
  
-  font-size: 1rem; /* Font size */
+  font-size: 1rem;
   border-style: none;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Optional: smooth color transition */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* On hover, change button color */
 button[type="submit"]:hover {
-  background-color: var(--cream-color); /* Change to charcoal color on hover */
-  color: var(--green-color); /* Change text to coral on hover */
-  border-color: var(--charcoal-color); /* Change border to charcoal on hover */
+  background-color: var(--yellow-color); 
+  color: var(--green-color); 
+  border-color: var(--charcoal-color); 
 }
 
 
 
 /* Success Page Styling */
 #success {
-  background-color: var(--cream-color);  /* Light cream background */
-  color: var(--charcoal-color);           /* Charcoal text color */
-  padding: 50px 20px;                    /* Add space around the content */
-  border-radius: 10px;                   /* Rounded corners */
-  margin-top: 50px;                      /* Space from the top of the page */
+  background-color: var(--cream-color); 
+  color: var(--charcoal-color);          
+  padding: 50px 20px;                  
+  border-radius: 10px;                  
+  margin-top: 50px;                    
   text-align: center;
-  animation: fadeIn 1s ease-out;          /* Smooth fade-in effect */
+  animation: fadeIn 1s ease-out;         
 }
 
 /* Header Styling */
 #success h1 {
-  font-size: 3rem;                      /* Larger size for 'Thank You' */
-  font-weight: bold;                    /* Make it bold */
-  color: var(--coral-color);            /* Coral text color for the main heading */
-  margin-bottom: 20px;                  /* Space below the heading */
+  font-size: 3rem;                    
+  font-weight: bold;                  
+  color: var(--coral-color);           
+  margin-bottom: 20px;                 
 }
 
 /* Subheading Styling */
 #success .lead {
-  font-size: 1.5rem;                    /* Larger size for the subheading */
-  color: var(--charcoal-color);         /* Dark text color */
-  margin-bottom: 30px;                  /* Space below the paragraph */
+  font-size: 1.5rem;                   
+  color: var(--charcoal-color);       
+  margin-bottom: 30px;                 
 }
 
 /* Button Styling */
 #success .btn {
-  background-color: var(--coral-color); /* Coral background color */
-  color: #5CFFFF;            /* Cream text color */
-  padding: 12px 30px;                   /* Padding for the button */
-  font-size: 1.2rem;                    /* Slightly larger text */
-  border: none;                         /* Remove default border */
-  border-radius: 5px;                   /* Rounded corners */
-  text-decoration: none;                /* Remove underline */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  background-color: var(--coral-color); 
+  color: #5CFFFF;            
+  padding: 12px 30px;                  
+  font-size: 1.2rem;                   
+  border: none;                       
+  border-radius: 5px;                  
+  text-decoration: none;               
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #success .btn:hover {
-  background-color: var(--blue-color);  /* Change to blue on hover */
-  color: var(--coral-color);         /* Change text color to charcoal on hover */
+  background-color: var(--blue-color);  
+  color: var(--coral-color);         
 }
 
 /* Fade-in Animation */
@@ -267,12 +288,12 @@ button[type="submit"]:hover {
 /*footer styles*/
 
 footer {
-  padding-top: 30px; /* Adjust as needed */
+  padding-top: 30px;
 }
 
 /* Style social icons */
 .footer .social-links a i {
-  color: var(--cream-color); /* Inherit color from parent (anchor tag) */
+  color: var(--cream-color);
 }
 
 /* On hover, change color */
@@ -295,7 +316,7 @@ footer {
 }
 
 .footer .address {
-  text-align: left; /* Ensure left-aligned text */ ;
+  text-align: left;
 }
 
 /* Ensure responsiveness on large screens */
