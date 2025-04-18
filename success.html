@@ -30,13 +30,13 @@
         <li class="nav-item">
           <a class="nav-link" href="aboutus.html">About Us</a>
         </li>
+      
         <li class="nav-item">
           <a class="nav-link" href="faq.html">FAQs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="quote.html">Get a Quote</a>
+        <a class="nav-link" href="quote.html">Get a Quote</a>
         </li>
-        
       </ul>
     </div>
   </div>
@@ -49,61 +49,20 @@
 </header>
 
 <!--main content-->
-<main>
-  <section id="quote-form-info" class="text-center mb-5">
-    <p class="lead">Ready to get started? Share some details with us about your artwork, and we'll send you a customized quote!
-    </p>
-  </section>
- 
-  <form action="success.html" method="GET" class="custom-form container bg-light p-4 rounded shadow-sm mt-5" style="max-width: 600px;">
-    <!-- Name -->
-    <h3>Name*</h3>
-    <div class="row mb-3">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First Name" name="first-name" required>
-      </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last Name" name="last-name" required>
+
+  <!-- success message for users who successfully submit a form -->
+  <main id="success" class="container section text-center">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h1 class="display-3">Thank you!</h1>
+        <p class="lead">Your form has been submitted successfully! <BR>We will be in touch shortly</BR></p>
+        <a href="index.html" class="btn custom-button-outline mb-5">Return to the home page</a>
       </div>
     </div>
-  
-    <!-- Email -->
-    <h3>Email*</h3>
-    <div class="mb-3">
-      <input type="email" class="form-control" placeholder="you@example.com" name="email" required>
-    </div>
-  
-    <!-- Type of Artwork -->
-    <h3>Type of Artwork*</h3>
-    <div class="mb-3">
-      <select class="form-select" name="art-type" required>
-        <option value="">-- Select Artwork Type --</option>
-        <option value="painting">Painting</option>
-        <option value="photograph">Photograph</option>
-        <option value="print">Print</option>
-        <option value="other">Other</option>
-      </select>
-    </div>
-  
-    <!-- Size of Artwork -->
-    <h3>Size of Artwork (cm)*</h3>
-    <div class="mb-3">
-      <input type="text" class="form-control" placeholder="e.g. 30 x 45" name="size" required>
-    </div>
-  
-    <!-- Message -->
-    <h3>Message (optional)</h3>
-    <div class="mb-3">
-      <textarea class="form-control" rows="4" placeholder="Your message..." name="message"></textarea>
-    </div>
-  
-    <!-- Submit -->
-    <div id="quote-submit" class= 'text-center'>
-      <button type="submit" class="btn btn-dark">Submit</button>
-    </div>
-  </form>
-  
-</main>
+  </main>
+
+
+
 <!--footer-->
 <footer class="footer bg-dark text-light py-4">
   <div class="container">
