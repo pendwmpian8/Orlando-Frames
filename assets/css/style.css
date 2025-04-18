@@ -90,7 +90,7 @@ body {
 .cta-button {
   padding: 15px 30px;
   font-size: 1.2rem;
-  background-color: var(--charcoal-color);
+  background-color: var(--charcoal-color); /* Charcoal color for the button */
   color: var(--cream-color); 
   border: none;
   text-decoration: none;
@@ -104,7 +104,37 @@ body {
 }
 
 
+/*GET A QUOTE SECTION*/
+/* Square corners for all form elements */
+.custom-form,
+input,
+select,
+textarea,
+.customform button,
+.form-control,
+.form-select,
+.btn {
+  border-radius: 0 !important;
+}
+
+form h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.custom-form {
+  margin-bottom: 3rem; /* Adjust as needed */
+}
+
 /*footer styles*/
+
+footer {
+  padding-top: 30px; /* Adjust as needed */
+}
+
 /* Style social icons */
 .footer .social-links a i {
   color: var(--cream-color); /* Inherit color from parent (anchor tag) */
