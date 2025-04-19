@@ -17,9 +17,12 @@ body {
     font-family: var(--primary-font), sans-serif;
     background-color: var(--cream-color);
     color: var(--charcoal-color);
+   
 }
 
-
+main {
+  padding-top: 70px;
+}
 
 /*NavBar Styles*/
 .navbar-nav .nav-link:hover {
@@ -68,6 +71,7 @@ body {
   align-items: center;
   color: var(--charcoal-color);
   text-align: center;
+  padding-top: 70px;
 }
 
 .hero-content {
@@ -139,7 +143,8 @@ body {
 /* CTA Button */
 .cta-button {
   padding: 15px 30px;
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
+  font-weight: bold;
   background-color:var(--charcoal-color); 
   color: var(--cream-color); 
   border: none;
@@ -149,8 +154,8 @@ body {
 }
 
 .cta-button:hover {
-  background-color:var(--cream-color);
-  color: var(--charcoal-color); 
+  background-color:var(--coral-color);
+  color: var(--cream-color); 
 
 }
 
@@ -203,6 +208,7 @@ form h3 {
   margin-bottom: 1rem;
   font-size: 1rem;
   font-weight: bold;
+  color: var(--green-color);
 }
 
 .custom-form {
@@ -280,9 +286,37 @@ button[type="submit"]:hover {
   }
 }
 
-/*google map section*/
-#contact-info  {
+/*FAQS section*/
+.card {
+  border: none;
+  border-radius: 0;
+  background-color: #fdfaf6; /* light cream or neutral */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card-title {
   color: var(--coral-color);
+  font-weight: 600;
+}
+
+.card-text {
+  color: var(--charcoal-color);
+}
+
+.faq-img {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+/*google map section*/
+#contact-info  h3{
+  color: var(--coral-color);
+  font-weight: bold;
+  
 }
 
 /*footer styles*/
