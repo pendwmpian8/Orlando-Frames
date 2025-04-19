@@ -17,8 +17,9 @@ body {
     font-family: var(--primary-font), sans-serif;
     background-color: var(--cream-color);
     color: var(--charcoal-color);
-   
+    overflow-x: hidden;
 }
+
 
 .main-container {
   padding-top: 70px;
