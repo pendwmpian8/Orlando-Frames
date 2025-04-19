@@ -20,8 +20,18 @@ body {
    
 }
 
-main {
+.main-container {
   padding-top: 70px;
+}
+
+/*weird horizontal scroll on index fix*/
+html, body {
+  overflow-x: hidden;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 /*NavBar Styles*/
