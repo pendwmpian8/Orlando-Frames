@@ -156,6 +156,10 @@ body {
   padding: 20px;
 }
 
+/*drop in */ 
+#drop-in {
+  font-size: larger
+}
 
 .cta-button {
   padding: 20px 40px;
@@ -378,6 +382,78 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+#connect-with-us .social-links a{
+
+  text-decoration: none;
+}
+
+#connect-with-us .social-links a i{
+  color:var(--yellow-color)
+}
+
+#connect-with-us {
+  padding: 70px 20px;
+  background-color: var(--charcoal-color); 
+  color: var(--coral-color); 
+  text-align: left;
+  background-image: url(../images/bluewall.jpg);
+  background-position: left center;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#connect-with-us::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(5, 28, 28, 0.85); /* dark overlay for readability */
+  z-index: -1;
+}
+
+#connect-with-us h3,
+#connect-with-us p,
+#connect-with-us label {
+  color: var(--coral-color);
+  font-family: var(--secondary-font); 
+  font-weight: 700;
+}
+
+#connect-with-us h3 {
+  font-size: 1.6rem; /* slightly smaller heading */
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+#connect-with-us p {
+  font-size: 1.25rem; /* larger paragraph text */
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+#connect-with-us input,
+#connect-with-us button {
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+#connect-with-us .btn {
+  background-color: var(--yellow-color);
+  color: var(--green-color);
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+#connect-with-us .btn:hover {
+  background-color: var(--green-color);
+  color: var(--yellow-color);
+}
 /*footer styles*/
 
 footer {
@@ -387,9 +463,9 @@ footer {
 /* Style social icons */
 .footer .social-links a i {
   color: var(--cream-color);
+  font-size: 2rem;
 }
 
-/* On hover, change color */
 .footer .social-links a:hover i {
   color: var(--coral-color);
   transition: color 0.3s ease;
