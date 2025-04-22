@@ -494,6 +494,23 @@ footer {
   text-align: left;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Wrap for smaller screens */
+  padding: 20px;
+}
+
+.footer .address {
+  text-align: left;
+}
+
+.footer .social-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
 /* Ensure responsiveness on large screens */
 @media (min-width: 992px) {
   .footer .social-links {
@@ -516,6 +533,20 @@ footer {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .social-links {
+    margin-top: 10px;
+  }
+}
+
+
+/*media queries for about us page*/
 @media screen and (max-width: 768px) {
   .about-us-image {
     display: flex;
