@@ -223,7 +223,7 @@ body {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.65);
   z-index: 1;
 }
 
@@ -409,7 +409,7 @@ button[type="submit"]:hover {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(5, 28, 28, 0.85); /* dark overlay for readability */
+  background-color:  rgba(0, 0, 0, 0.75); 
   z-index: -1;
 }
 
@@ -422,7 +422,7 @@ button[type="submit"]:hover {
 }
 
 #connect-with-us h3 {
-  font-size: 1.6rem; /* slightly smaller heading */
+  font-size: 1.6rem; 
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -430,10 +430,11 @@ button[type="submit"]:hover {
 }
 
 #connect-with-us p {
-  font-size: 1.25rem; /* larger paragraph text */
-  margin-bottom: 1.5rem;
+  font-size: 1.5rem; 
+  margin-bottom: 2rem;
   font-weight: 500;
   line-height: 1.7;
+
 }
 
 #connect-with-us input,
@@ -454,6 +455,11 @@ button[type="submit"]:hover {
   background-color: var(--green-color);
   color: var(--yellow-color);
 }
+
+#connect-with-us input[type="email"], .btn {
+ margin-top: 30px;
+}
+
 /*footer styles*/
 
 footer {
