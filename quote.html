@@ -61,24 +61,24 @@
   <form action="success.html" method="GET" class="custom-form container p-4 rounded mt-5" style="max-width: 600px;">
     <!-- Name -->
     <h3>Name*</h3>
-    <div class="mb-3 row">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First Name" name="first-name" required>
+    <div class="mb-4 row g-2"> 
+      <div class="col-md">
+      <input type="text" class="form-control" placeholder="First Name" name="first-name" required>
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last Name" name="last-name" required>
+      <div class="col-md">
+      <input type="text" class="form-control" placeholder="Last Name" name="last-name" required>
       </div>
     </div>
   
     <!-- Email -->
     <h3>Email*</h3>
-    <div class="mb-3">
+    <div class="mb-4"> 
       <input type="email" class="form-control" placeholder="you@example.com" name="email" required>
     </div>
   
     <!-- Type of Artwork -->
     <h3>Type of Artwork*</h3>
-    <div class="mb-3">
+    <div class="mb-4"> 
       <select class="form-select" name="art-type" required>
         <option value="">-- Select Artwork Type --</option>
         <option value="painting">Painting</option>
@@ -90,18 +90,18 @@
   
     <!-- Size of Artwork -->
     <h3>Size of Artwork (cm)*</h3>
-    <div class="mb-3">
+    <div class="mb-4"> 
       <input type="text" class="form-control" placeholder="e.g. 30 x 45" name="size" required>
     </div>
   
     <!-- Message -->
     <h3>Message (optional)</h3>
-    <div class="mb-3">
+    <div class="mb-4"> 
       <textarea class="form-control" rows="4" placeholder="Your message..." name="message"></textarea>
     </div>
   
     <!-- Submit -->
-    <div id="quote-submit" class= 'text-center'>
+    <div class="d-flex justify-content-center"></div>
       <button type="submit" class="btn btn-dark">Submit</button>
     </div>
   </form>

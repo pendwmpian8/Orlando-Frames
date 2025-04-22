@@ -261,8 +261,8 @@ form h3 {
 button[type="submit"] {
   background-color: var(--green-color);
   color: var(--yellow-color);
- 
-  font-size: 1rem;
+  font-size: 1.1rem; /* Increased font size */
+  padding: 10px 20px; /* Added padding for a larger button */
   border-style: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
