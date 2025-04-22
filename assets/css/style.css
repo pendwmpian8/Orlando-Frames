@@ -95,7 +95,7 @@ body {
   font-size: 3rem;
   margin-bottom: 20px;
   font-weight: bold;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .hero p {
@@ -117,6 +117,11 @@ body {
   justify-content: space-between;
 }
 
+#index-section h4{
+  font-size: 5rem;
+}
+
+
 /* Equal height for text and image sections */
 #index-section .col-md-6 {
   display: flex;
@@ -136,7 +141,7 @@ body {
 }
 
 #index-section h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -358,6 +363,7 @@ button[type="submit"]:hover {
 }
 #about-us-text {
   padding-bottom: 30px;
+  font-size: larger;
 }
 
 #about-us h2{
