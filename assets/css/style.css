@@ -470,18 +470,6 @@ button[type="submit"]:hover {
 }
 
 
-/* THANK YOU MESSAGE -needs improving with javascript*/
-.thank-you-message {
-  display: none;
-  color: var(--green-color);
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-.signup-form:has(input:valid) .thank-you-message {
-  display: block;
-}
-
 /*footer styles*/
 
 .footer .social-links a i {
