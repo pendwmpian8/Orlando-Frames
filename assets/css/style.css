@@ -284,7 +284,7 @@ button[type="submit"]:hover {
 /* SUCCESS PAGE */
 #success {
   background-color: var(--cream-color); 
-  color: var(--charcoal-color);          
+  color: var(--green-color);          
   padding: 50px 20px;                  
   border-radius: 10px;                  
   margin-top: 50px;                    
@@ -307,12 +307,14 @@ button[type="submit"]:hover {
   margin-bottom: 30px;                 
 }
 
+/*needs work - maybe add a background image*/
 /* Button Styling */
 #success .btn {
   background-color: var(--coral-color); 
-  color: #5CFFFF;            
+  color: var(--yellow-color);            
   padding: 12px 30px;                  
-  font-size: 1.2rem;                   
+  font-size: 1.2rem;     
+  font-weight: bold;              
   border: none;                       
   border-radius: 5px;                  
   text-decoration: none;               
@@ -320,7 +322,7 @@ button[type="submit"]:hover {
 }
 
 #success .btn:hover {
-  background-color: var(--blue-color);  
+  background-color: var(--yellow-color);  
   color: var(--coral-color);         
 }
 
