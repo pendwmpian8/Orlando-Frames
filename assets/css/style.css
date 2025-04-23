@@ -1,3 +1,4 @@
+/*Google fonts link*/
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*CSS Variables*/
@@ -20,7 +21,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .main-container {
   padding-top: 70px;
 }
@@ -34,6 +34,7 @@ html, body {
   margin-right: 0;
   margin-left: 0;
 }
+
 
 /*NavBar Styles*/
 .navbar-nav .nav-link:hover {
@@ -104,8 +105,8 @@ body {
   margin-bottom: 30px;
 }
 
-/*home page more info section*/
 
+/*home page more info section*/
 #index-section .row {
   display: flex;
   flex-wrap: wrap;
@@ -134,7 +135,7 @@ body {
 #index-section img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image fills the container without stretching */
+  object-fit: cover; /* NO STRETCHING */
 }
 
 #index-section .mb-4 {
@@ -172,7 +173,6 @@ body {
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-
   margin-top: 30px; 
 }
 
@@ -205,7 +205,6 @@ body {
 }
 
 /*FORM PAGE*/
-
 .formpage-hero {
   position: relative;
   width: 100%;
@@ -282,7 +281,7 @@ button[type="submit"]:hover {
 
 
 
-/* Success Page Styling */
+/* SUCCESS PAGE */
 #success {
   background-color: var(--cream-color); 
   color: var(--charcoal-color);          
@@ -363,6 +362,7 @@ button[type="submit"]:hover {
   transform: translateY(-5px);  /* Slight upward movement */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
 /*google map section*/
 #contact-info  h3{
   color: var(--coral-color);
@@ -398,6 +398,7 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+/* Connect with us section */
 #connect-with-us {
   padding: 70px 20px;
   background-color: var(--charcoal-color); 
@@ -407,7 +408,7 @@ button[type="submit"]:hover {
   background-position: left center;
   background-size: 150%;
   background-repeat: no-repeat;
-  position: relative;
+  position: relative; /* Ensure position is relative for child elements */
   z-index: 1;
   overflow: hidden;
 }
@@ -416,8 +417,8 @@ button[type="submit"]:hover {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(222, 207, 181, 0.6); /* Light overlay */
-  z-index: -1;
+  background-color: rgba(222, 207, 181, 0.6);  /* Overlay color */
+  z-index: 0; /* Ensure overlay stays behind the content */
 }
 
 #connect-with-us h3,
@@ -426,7 +427,9 @@ button[type="submit"]:hover {
   color: var(--green-color);
   font-family: var(--secondary-font); 
   font-weight: 700;
-  text-shadow: 2px 2px 0px rgba(222, 207, 181, 1); /* soft shadow */
+  text-shadow: 2px 2px 0px var(--cream-color);
+  position: relative; /* Allow z-index to work */
+  z-index: 2; /*text above overlay */
 }
 
 #connect-with-us h3 {
@@ -434,7 +437,6 @@ button[type="submit"]:hover {
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 700;
 }
 
 #connect-with-us p {
@@ -442,7 +444,6 @@ button[type="submit"]:hover {
   margin-bottom: 2rem;
   font-weight: 500;
   line-height: 1.7;
-
 }
 
 #connect-with-us input,
@@ -465,10 +466,11 @@ button[type="submit"]:hover {
 }
 
 #connect-with-us input[type="email"], .btn {
- margin-top: 30px;
+  margin-top: 30px;
 }
 
-/* THANK YOU MESSAGE */
+
+/* THANK YOU MESSAGE -needs improving with javascript*/
 .thank-you-message {
   display: none;
   color: var(--green-color);
@@ -481,6 +483,7 @@ button[type="submit"]:hover {
 }
 
 /*footer styles*/
+
 .footer .social-links a i {
   color: var(--cream-color);
   font-size: 2rem;
@@ -548,7 +551,7 @@ footer {
   }
 
   .footer .address {
-    text-align: left; /* Address text should be left-aligned on large screens */
+    text-align: left; /* Address text should left on large screens */
   }
 
 }
