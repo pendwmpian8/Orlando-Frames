@@ -389,18 +389,10 @@ button[type="submit"]:hover {
 
 #about-us {
   padding: 50px 20px;
+  margin-bottom: 50px;
   background-color: var(--cream-color); 
   color: var(--charcoal-color); 
   text-align: center;
-}
-
-#connect-with-us .social-links a{
-
-  text-decoration: none;
-}
-
-#connect-with-us .social-links a i{
-  color:var(--yellow-color)
 }
 
 #connect-with-us {
