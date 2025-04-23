@@ -200,7 +200,8 @@ body {
 }
 
 #steps-section h2{
-  font-weight: bold
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 /*FORM PAGE*/
@@ -372,11 +373,12 @@ button[type="submit"]:hover {
 
 /*ABOUT US PAGE*/
 #about-us img {
-  width: 85%; 
+  width: 85%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 35px auto;
 }
+
 #about-us-text {
   padding-bottom: 30px;
   font-size: larger;
@@ -385,6 +387,7 @@ button[type="submit"]:hover {
 #about-us h2{
   color: var(--coral-color);
   font-weight: bold;
+  font-size: 2rem;
 }
 
 #about-us {
@@ -423,6 +426,7 @@ button[type="submit"]:hover {
   color: var(--green-color);
   font-family: var(--secondary-font); 
   font-weight: 700;
+  text-shadow: 2px 2px 0px rgba(222, 207, 181, 1); /* soft shadow */
 }
 
 #connect-with-us h3 {
@@ -462,6 +466,18 @@ button[type="submit"]:hover {
 
 #connect-with-us input[type="email"], .btn {
  margin-top: 30px;
+}
+
+/* THANK YOU MESSAGE */
+.thank-you-message {
+  display: none;
+  color: var(--green-color);
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.signup-form:has(input:valid) .thank-you-message {
+  display: block;
 }
 
 /*footer styles*/
