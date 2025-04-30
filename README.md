@@ -37,7 +37,7 @@ Orlando Frames is a multi-page, responsive website built using HTML, CSS, and Bo
 
 ## Meta Descriptions & SEO
 
-Custom meta descriptions were written for each page to highlight the local, independent nature of the business and its framing expertise. These help improve search performance for people looking for framing services in the Orlando area.
+Custom meta descriptions were written for each page to highlight the local, independent nature of the business and its framing expertise. These help improve search performance for people looking for framing services in the Leyton area.
 
 ## Getting Started
 
