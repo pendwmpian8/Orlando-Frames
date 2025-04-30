@@ -1,6 +1,6 @@
 # Orlando Frames
 
-Welcome to Orlando Frames – a custom art framing website for a local small business in Orlando, Florida. This site was designed to showcase services, answer common questions, and allow users to request a personalized framing quote.
+Welcome to Orlando Frames – a custom art framing website for a local small business in Leyton, London. This site was designed to showcase services, answer common questions, and allow users to request a personalized framing quote.
 
 ## Project Overview
 
