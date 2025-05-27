@@ -1,5 +1,7 @@
 # Orlando Frames – Custom Framing Website
 
+![screenshot of homepage and CTA button](assets/readme-imgs/home-sc.png)
+
 Welcome to Orlando Frames, a custom art framing website created for a small, independent business based in Leyton, East London. This project was designed to showcase the company’s services, answer common questions, and allow visitors to request personalized framing quotes through a clean, accessible, and responsive interface.
 
 ## Project Overview
@@ -10,16 +12,22 @@ The design decisions were shaped closely by the client's brief, which emphasized
 - A **non-commercial, personal tone** to communicate craftsmanship over mass production
 - Avoiding features like a gallery or e-commerce components to retain a **bespoke, word-of-mouth feel**
 - Use of specific **warm color tones** and **distinctive typefaces** (Syne and Urbanist) to evoke a modern yet welcoming aesthetic
+![example showcasing client's color palette](assets/readme-imgs/how-it-works-sc.png)
 
 This direction informed the visual language of the site: clean, uncluttered, and centered around trust and approachability rather than promotion or sales.
 
 ## Pages Included
 
 - `index.html` – Home page introducing the brand with a clear call to action
+![index page further down](assets/readme-imgs/home-sc-box.png)
 - `about.html` – About page detailing the company story and values
+![about us page email sign up section](assets/readme-imgs/email-signup.png)
 - `quote.html` – Quote request form with field validation and structured layout
+![form enquiry submission page](assets/readme-imgs/get-a-quote.png)
 - `faqs.html` – Frequently Asked Questions page to assist customers
+![faq page](assets/readme-imgs/faq-sc.png)
 - `success.html` – Confirmation page displayed after successful form submission
+![success page](assets/readme-imgs/success.png)
 
 ## Technologies Used
 
@@ -37,6 +45,7 @@ This direction informed the visual language of the site: clean, uncluttered, and
 - Quote form uses side-by-side input fields via Bootstrap’s `.row` and `.col` structure
 - Custom buttons styled with padding, font scaling, and hover effects
 - Responsive behavior refined through media queries
+![example of mobile responsiveness on homepage](assets/readme-imgs/drop-in-mobile.png)
 - Typography and color controlled via CSS custom properties for consistency
 - Focus on clean alignment, spacing, and visual rhythm across all devices
 - The client emphasized a **non-commercial feel**, which led to the decision to exclude a gallery page. This decision helps preserve the **personal, bespoke nature** of the business, ensuring that the site is **not product-driven** but service-focused, with a strong emphasis on personal interaction.
