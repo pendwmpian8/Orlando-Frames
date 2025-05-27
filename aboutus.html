@@ -74,6 +74,10 @@
       <button class="btn btn-dark" type="submit">Subscribe</button>
     </div>
   </form>
+  <p id="signup-message">
+  Thank you for subscribing!
+</p>
+
 </div>
 </section>
 </main>
@@ -119,26 +123,7 @@
 
 <!--font awesome link-->
     <script src="https://kit.fontawesome.com/d72f5ec7ae.js" crossorigin="anonymous"></script>
-<!--nav bar closing issue fixed-->
-    <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
-                link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
-                    }
-                });
-            });
-    </script>
+<!--javascript link-->
+<script src="assets/script.js"></script>
 </body>
 </html>

@@ -400,6 +400,7 @@ button[type="submit"]:hover {
   text-align: center;
 }
 
+
 /* Connect with us section */
 #connect-with-us {
   padding: 70px 20px;
@@ -469,6 +470,13 @@ button[type="submit"]:hover {
 
 #connect-with-us input[type="email"], .btn {
   margin-top: 30px;
+}
+
+#signup-message {
+  display: none;
+  color: var(--coral-color) !important;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 
