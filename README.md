@@ -72,10 +72,11 @@ Unique meta descriptions were written for every page, highlighting the business'
 - **CSS Validation**: Stylesheets passed validation via [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), including use of valid CSS custom properties.
 - **Lighthouse Testing**: Conducted in Chrome DevTools on desktop.
 - (on average)
-  - Performance: 74
+  - Performance: 73-98
   - Accessibility: 95
   - Best Practices: 100
   - SEO: 100
+  ![lighthouse screenshot](assets/readme-imgs/lighthouse-sc.png)
   These scores reflect a well-optimized and accessible site. Performance may vary slightly across networks or browsers.
 
 ## Getting Started
